@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const ImageContainer = ({ images }) => {
   return (
-    <div className="w-full h-auto flex justify-center items-center gap-[20px] mt-[20px]">
+    <div className="w-full h-auto flex justify-center items-center gap-[20px] ml-2 mt-[20px]">
       {images.map((image, index) => (
         <img 
           key={index} 

@@ -5,7 +5,7 @@ const Tab = ({ label, isActive, onClick }) => {
     <div
       onClick={onClick}
       className={`w-[190px] ml-[7px] h-[49px] rounded-[16px] text-center p-[10px] cursor-pointer ${
-        isActive ? 'bg-[#28292F] shadow-[1px_1px_4px_1px_rgba(0,0,0,0.2)] text-white' : 'text-[#A3ADB2]'
+        isActive ? 'bg-[#28292F] shadow-[14px_14px_20px_18px_rgba(0,0,0,0.2)] text-white' : 'text-[#A3ADB2]'
       }`}
     >
       <p className="text-lg drop-shadow-xl">{label}</p>
