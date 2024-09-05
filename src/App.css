@@ -1,0 +1,11 @@
+/* In your global CSS file */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+
+.shadow-md {
+  box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.4);
+}
